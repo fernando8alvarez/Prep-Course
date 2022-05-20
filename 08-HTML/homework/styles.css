@@ -1,17 +1,46 @@
 .divClass h1{
-    color: rgb(0, 247, 255);
+    color: rgb(255, 251, 0);
+    background-color: darkseagreen;
+    display: grid;
+    align-items: center;
+    justify-items: center;
     }
+.divClass h3{
+
+    margin-right:auto ;
+}
 #thirdDiv ul li img {
     width: 400px;
+    margin: auto;
 }
 #thirdDiv {
     height: 600px;
-    width: 400px;
-    background-color: blue;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background-color: rgb(87, 87, 92);
+    left: center;
+    color: rgb(255, 251, 0);
+    
 }
 .divClass #spanId{
     font-size: 18px;
+    background-color: brown;
     margin: 50px;
-    padding: 50px;
+    padding: 20px;
     border: 3px solid black;
+    position: relative;
+    left: 550px;
+    top: 0px;
+}
+.divClass a{
+    position: relative;
+    left: 800px;
+}
+body{
+ 
+   background: url(https://pixabay.com/get/g76294184c03af01ee38511105b7d81741712788c4f90c3582a895855d0c8c3d238f2570c88fc72d8acdb79cb3e0eb9fb.jpg);
+   background-size: 100%;
+   font-family: sans-serif;
 }
