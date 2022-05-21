@@ -1,0 +1,28 @@
+.titulo h1{
+    display: block;
+    text-align: center;
+}
+.titulo div img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: sticky;
+    left: 1000px;
+}
+.titulo div{
+    background-color: rgb(132, 255, 0);
+    
+    
+}
+.parrafo1 {
+    display: block;
+    text-align: justify;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.razon1 {
+    display: block;
+    text-align: justify;
+}
