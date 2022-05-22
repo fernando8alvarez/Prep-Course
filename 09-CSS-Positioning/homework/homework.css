@@ -7,6 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
 
 }
 
@@ -14,25 +16,64 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
-
+#ejercicioDos {
+    display: none; /* oculta el objeto y lo saca de la vista de la web sin conservar el espacio ocupado el objeto*/
+     /* visibility: hidden; hace la misa funcion que "none" solo que conserva el espacio ocupado por el objto y se muestra en la web */
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
 
+#ejercicioCuatro{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 
 
 /* Ejercicio 5: */
 
+
 /* Acá va tu código */
 
-
+#ejercicioCinco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
 
 /* Ejercicio 6. */
+
+#ejercicioCinco{
+   flex-direction: row-reverse;
+}
+
+
+#ejercicioSiete{
+
+    display: flex;
+    /* align-items: flex-start; pone las 4 cajas arriba */
+    align-items: center; /*pone las 4 cajas en medio*/
+    /* align-items: flex-end; pone las 4 cajas abajo */
+    flex-direction: row; /*posisiona los elementos en columna*/
+    gap: 10px; /*crea un espacio entre los elementos*/
+
+}
+
+#elementoDos{
+    align-self: center;
+}
+
