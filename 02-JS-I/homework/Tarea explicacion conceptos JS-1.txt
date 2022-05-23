@@ -1,0 +1,29 @@
+1.Variables:Se puede visualizar como una especie de caja donde guardamos algo para luego 
+utilizarlo. Dicha caja se le puede asignar un nombre para ubicar mas facilmente aquello que 
+hemos guardado.
+
+2.Strings:Imginemos que tenemos una fila o columna de un crucigrama, cada recuadro de esa fila 
+del crucigrama representara una caja donde se puede almacenar una sola cosa, es decir, en cada 
+casilla colocaremos una letra de una palabra o en dado caso si es una frase, tambien se almacenara 
+en una casilla el espacio entre las palabras de la frase.
+
+3.Funciones (argumentos, return): ahora, imaginemos un Mac donalds,donde el objetivo es darle al cliente
+su pedido, es decir, su orden de hamburguesa, papitas y bebidas. Ese sera nuestro programa. Ahora cada
+miembro de los trabajadores dentro de Macdonald tendra una tarea distinta, uno hara la hamburguesa, otro
+las papitas, otro servira las bebidas, otro atendera los pedidos y por ultimo habra alguien que entregue 
+los pedidos. A cada miembro de mac donalds lo llamaremos funcion, es decir, la tarea que hagan cada uno, sera
+lo que haga cada funcion de nuesto programa. Ahora en cuanto a los argumentos, esto correspoderan a los pedidos
+de los clientes, si el cliente pide un 2 hamburguesas y 1 refesco, eso seran los argumentos que pasaran a cada
+funcion (miembros) segun corresponda. En el caso del return, este sera el resultado de devolver al cliente su 
+pedido.
+
+4.Declaraciones if: esta sirve para tomar decisiones e cuanto a una declaracion ya establecida, supongamos que
+que necesitamos ir de compras al super mercado porque nuestra despensa esta vacia, pero no tenemos muchas ganas
+de hacerlo, afuera el tiempo no se ve muy favorable para salir, entonces con el if hacemos una daclaracion mental para 
+tomar una decision, si (if) afuera no esta lloviendo, salimos al super mercado, en caso contrario nos quedamos
+en casa.
+
+5.Valores boleanos (true, false):esta nos sirve para dar una informacion con dos unicas posibilidades, bien sea,
+a una pregunta, afirmacion, informacion, declaracion o condicion previamente establecidad.Como por ejemplo, si en
+una encuesta nos pregunta si somos hombre o mujer, si nos gusta algo o no, es decir, si la respuesta es afirmativa,
+o negativa, verdadera o falsa, si o no...
