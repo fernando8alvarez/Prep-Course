@@ -230,7 +230,12 @@ function tieneTresDigitos(numero){
        return true;
      }
      return false;
-  
+  /*OTRA MANERA DE HACERLO:
+     if ((numero.toString()).length ===2){ //el ".toStrig" convierte lo quesea que se le pase a una cadena de caracteres, es decir string
+       return true;
+     }
+      return false;
+  */
 }
 
 function doWhile(numero) {
@@ -246,6 +251,17 @@ function doWhile(numero) {
   } while (i < 8); // es 8 porque esta empezando en 0
   return valor;
 } 
+
+/* OTRA MANERA DE HACERLO:
+var contador = 8;
+  var resultado = 0;
+
+  do{
+     resultado += 5;
+     contador -= 1;
+  }while(contador!==0);
+  return numero + resultado;
+ */
 
 
 // No modificar nada debajo de esta línea
